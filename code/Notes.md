@@ -1,11 +1,11 @@
 
-## Unittest frameworks for windows
+# Unittest frameworks for windows
 
-# UnitTest++
+## UnitTest++
 
 Github: https://github.com/unittest-cpp/unittest-cpp
 
-# Build Repo
+### Build Repo
 
 git clone https://github.com/unittest-cpp/unittest-cpp
 cd unittest-cpp
@@ -13,30 +13,30 @@ git checkout v1.6.1
 mkdir build
 cd ./build
 
-# For standalone MinGW pls use
+### For standalone MinGW pls use
 
 cmake -G "Unix Makefiles" ..
 
-# Compile line for unittest++
+### Compile line for unittest++
 
 g++ -o %1 %1.cpp -I. -Ic:\home\src\unittest-cpp\UnitTest++ -Lc:\home\src\unittest-cpp\build -lunittest++
 
-# Googletest
+## Googletest
 
 Github: https://github.com/google/googletest
 
-# Build Repo
+### Build Repo
 
 - git clone https://github.com/google/googletest
 - cd googletest
 - mkdir build
 - cd ./build
 
-# For standalone MinGW pls use
+### For standalone MinGW pls use
 
 cmake -G "Unix Makefiles" ..
 
-# Compile line for gtest
+### Compile line for gtest
 
 - g++ -o %1 %1.cpp -I. -Ic:\home\src\googletest\googletest\include main.cpp C:\home\src\googletest\build\googlemock\gtest\libgtest.a
 - g++ -o %1 %1.cpp -I C:\home\src\googletest\googletest\include -I. -I..\src main.cpp C:\home\src\googletest\build\googlemock\gtest\libgtest.a
