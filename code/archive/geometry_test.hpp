@@ -11,7 +11,14 @@ TEST(GeometryTests, AreaOfSquareTest){
 }
 
 TEST(GeometryTests, AreaOfSquareWhereSidesAreNotEqualtest){
-  ASSERT_FALSE(area_of_square(3, 4));
+  ASSERT_TRUE(area_of_square(3, 4) == 0);
 }
 
+TEST(GeometryTests, AreaOfTriangle){
+  EXPECT_DOUBLE_EQ(15, area_of_triangle(6,5));
+}
+
+TEST(GeometryTests, AreaOfCircle){
+  EXPECT_DOUBLE_EQ(113.09724, area_of_circle(6));
+}
 #endif // GEOMETRY_TEST_HPP_
