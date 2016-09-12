@@ -5,7 +5,7 @@
 #include <string>
 
 
-double compute_invoice(double itemsls[], int count){
+double compute_invoice(double items[], int count){
 
   double total = 0.0;
 
