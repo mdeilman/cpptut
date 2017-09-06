@@ -58,8 +58,14 @@ dummy
 *.gch
 *.gcd
 *.gcno
-*.ctm
 
 # cmake directories
 _build/
 build/
+
+# vscode stuff
+.vscode/
+.vs/
+
+# Testing
+Testing/

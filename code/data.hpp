@@ -1,4 +1,4 @@
-
+// DATA_HPP_
 #ifndef DATA_HPP_
 #define DATA_HPP_
 
@@ -125,4 +125,4 @@ void increment(const std::string& state) {
 	frequencies[state] += 1;
 }
 
-#endif /* DATA_HPP_ */
+#endif // DATA_HPP_

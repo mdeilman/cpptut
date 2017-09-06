@@ -1,3 +1,4 @@
+// REVERSE_TEST_HPP_
 #ifndef REVERSE_TEST_HPP_
 #define REVERSE_TEST_HPP_
 
@@ -23,6 +24,5 @@ TEST(InvoiceTest, compute_invoice){
   double bag[] = {23.95, 14.99, 12.39};
   ASSERT_DOUBLE_EQ(compute_invoice(bag,3), 53.505750374999998);
 }
-
 
 #endif // REVERSE_TEST_HPP_
